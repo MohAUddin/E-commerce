@@ -149,6 +149,10 @@ button:active{
     z-index: 2;
 }
 
+.no-cursor {
+    cursor: not-allowed;
+}
+
 /* 
 
 Highlights
@@ -312,4 +316,21 @@ Explore
     font-size: 20px;
     border-radius: 4px;
     cursor: pointer;
+}
+
+
+/* Footer */
+
+footer{
+    background-color: #242424;
+}
+
+.footer__logo--img {
+    width: 160px;
+    filter: grayscale(1) invert(1);
+}
+
+.footer__link,
+.footer__copyright {
+    color: #fff;
 }
