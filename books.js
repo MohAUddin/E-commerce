@@ -1,7 +1,14 @@
-function renderBooks() {
+function renderBooks(filter) {
   const booksWrapper = document.querySelector(".books");
 
   const books = getBooks();
+
+  if (filter === 'LOW_TO_HIGH'){
+    console.log(filter)
+    const filterBooks = books.sort((a, b) => a.originalPrice - b.originalPrice);
+    console.log(filterBooks)
+  }
+
 
   const booksHtml = books
     .map((book) => {
@@ -29,8 +36,8 @@ function renderBooks() {
   // booksWrapper.innerHTML =
 }
 
-function filterBooks() {
-  console.log('filterBooks')
+function filterBooks(event) {
+  renderBooks(event.target.value)
 }
 
 
