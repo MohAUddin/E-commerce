@@ -26,9 +26,14 @@ function renderBooks() {
     }).join("");
 
   booksWrapper.innerHTML = booksHtml;
-  console.log(booksHtml);
   // booksWrapper.innerHTML =
 }
+
+function filterBooks() {
+  console.log('filterBooks')
+}
+
+
 
 setTimeout(() => {
   renderBooks();
