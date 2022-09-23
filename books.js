@@ -25,7 +25,7 @@ function renderBooks(filter) {
               ${ratingsHTML(book.rating)}
             </div>
             <div class="book__price">
-              <span class="book__price--normal">$54.66</span>$14.95
+            $55.96
             </div>;
           </div>`;
     })
@@ -35,7 +35,12 @@ function renderBooks(filter) {
   // booksWrapper.innerHTML =
 }
 
+function priceHTML(originalPrice, salePrice) {
+  console.log(originalPrice, salePrice)
+  // <span class="book__price--normal">$54.66</span>$14.95
 
+
+}
 
 function ratingsHTML(rating) {
   let ratingHTML = '';
