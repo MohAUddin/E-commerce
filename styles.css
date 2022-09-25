@@ -491,6 +491,14 @@ BOOKS PAGE
       transform: rotate(360deg);
     }
   }
+
+ .books__loading--spinner{
+    display: none;
+  }
+
+ .books__loading .books__loading--spinner{
+    display: block;
+  }
   
 
 @media (max-width:768px) {
