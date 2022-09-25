@@ -1,5 +1,7 @@
 async function renderBooks(filter) {
   const booksWrapper = document.querySelector(".books");
+
+  
   const books = await getBooks();
   console.log(books)
 

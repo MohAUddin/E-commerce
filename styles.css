@@ -493,7 +493,7 @@ BOOKS PAGE
   }
 
  .books__loading--spinner{
-    display: none;
+    display: none !important;
   }
 
  .books__loading .books__loading--spinner{
