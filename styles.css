@@ -497,7 +497,7 @@ BOOKS PAGE
   }
 
  .books__loading .books__loading--spinner{
-    display: block;
+    display: block !important;
   }
   
 
